@@ -20,6 +20,7 @@
   "LAST_NAME": "Apellido(s)",
   "EMAIL": "Correo electrónico",
   "PHONE": "Teléfono móvil",
+  "LINKEDIN": "LinkedIn",
   "ACCEPTED_RESUME": "Tipos de CV aceptados:",
   "ERROR_WHILE_APPLYING": "Se produjo un error al aplicar. Inténtelo de nuevo.",
   "ERROR_HAS_OCCURED": "Se produjo un error al cargar. Actualice la página e inténtelo de nuevo.",
