@@ -20,6 +20,7 @@
   "LAST_NAME": "Nachname",
   "EMAIL": "E-Mail",
   "PHONE": "Mobiltelefon",
+  "LINKEDIN": "LinkedIn",
   "ACCEPTED_RESUME": "Folgende Arten von Lebensläufen werden akzeptiert:",
   "ERROR_WHILE_APPLYING": "Während der Bewerbung ist ein Fehler aufgetreten. Versuchen Sie es erneut.",
   "ERROR_HAS_OCCURED": "Während des Ladens ist ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.",
