@@ -20,6 +20,7 @@
   "LAST_NAME": "姓氏",
   "EMAIL": "电子邮件",
   "PHONE": "手机",
+  "LINKEDIN": "LinkedIn",
   "ACCEPTED_RESUME": "可接受的简历类型为",
   "ERROR_WHILE_APPLYING": "申请时发生错误，请重试。",
   "ERROR_HAS_OCCURED": "加载时发生错误。请刷新页面并重试。",

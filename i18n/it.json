@@ -20,6 +20,7 @@
   "LAST_NAME": "Cognome",
   "EMAIL": "Email",
   "PHONE": "N. cellulare",
+  "LINKEDIN": "LinkedIn",
   "ACCEPTED_RESUME": "I tipi di CV accettati sono",
   "ERROR_WHILE_APPLYING": "Si è verificato un errore durante l'invio della candidatura. Riprova.",
   "ERROR_HAS_OCCURED": "Si è verificato un errore durante il caricamento. Aggiorna la pagina e riprova.",

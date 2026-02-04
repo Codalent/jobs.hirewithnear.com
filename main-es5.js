@@ -2477,7 +2477,14 @@
               key: 'phone',
               label: this.translate.instant('PHONE'),
               type: 'tel',
-              required: false,
+              required: true,
+              hidden: false,
+              value: ''
+            });
+            this.linkedIn = new novo_elements__WEBPACK_IMPORTED_MODULE_1__["TextBoxControl"]({
+              key: 'linkedin',
+              label: this.translate.instant('LINKEDIN'),
+              required: true,
               hidden: false,
               value: ''
             });
@@ -2571,7 +2578,7 @@
               hidden: false,
               description: "".concat(this.translate.instant('ACCEPTED_RESUME'), " ").concat(_services_settings_settings_service__WEBPACK_IMPORTED_MODULE_2__["SettingsService"].settings.acceptedResumeTypes.toString())
             });
-            this.formControls = [this.firstName, this.lastName, this.email, this.phoneNumber, this.resume];
+            this.formControls = [this.firstName, this.lastName, this.email, this.phoneNumber, this.linkedIn, this.resume];
             var eeoc = _services_settings_settings_service__WEBPACK_IMPORTED_MODULE_2__["SettingsService"].settings.eeoc;
 
             for (var field in eeoc) {
@@ -2622,6 +2629,7 @@
                 lastName: encodeURIComponent(this.form.value.lastName),
                 email: encodeURIComponent(this.form.value.email),
                 phone: encodeURIComponent(this.form.value.phone || ''),
+                linkedin: encodeURIComponent(this.form.value.linkedin || ''),
                 format: this.form.value.resume[0].name.substring(this.form.value.resume[0].name.lastIndexOf('.') + 1)
               };
 
